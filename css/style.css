@@ -1,0 +1,44 @@
+.body_light {
+  position: relative;
+  margin: 0% 0% 0% 0%;
+  padding: 0% 0% 0% 0%;
+  background-color: cornsilk;
+}
+
+.body_dark {
+  position: relative;
+  margin: 0% 0% 0% 0%;
+  padding: 0% 0% 0% 0%;
+  background-color: black;
+}
+
+.div_header {
+  position: absolute;
+  display: inline-block;
+  margin: 0% 0% 0% 0%;
+  padding: 0% 0% 0% 0%;
+  top: 0vh;
+  left: 0vw;
+  width: 100vw;
+  height: 10vh;
+  text-align: center;
+  background-color: navy;
+  color: cyan;
+}
+
+.div_nav {
+  position: absolute;
+  display: inline-block;
+  margin: 0% 0% 0% 0%;
+  padding: 0% 0% 0% 0%;
+  top: 10vh;
+  left: 0vw;
+  width: 100vw;
+  height: 5vh;
+  text-align: center;
+  background-color: rgb(54, 3, 52);
+}
+
+h1 {
+  font-size: 2em;
+}
