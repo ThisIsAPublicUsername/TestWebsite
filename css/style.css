@@ -1,11 +1,7 @@
-.body_light {
-  position: relative;
-  margin: 0% 0% 0% 0%;
-  padding: 0% 0% 0% 0%;
-  background-color: cornsilk;
-}
-
-.body_dark {
+body {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
   position: relative;
   margin: 0% 0% 0% 0%;
   padding: 0% 0% 0% 0%;
@@ -15,30 +11,43 @@
 .div_header {
   position: absolute;
   display: inline-block;
-  margin: 0% 0% 0% 0%;
   padding: 0% 0% 0% 0%;
+  margin: 0% 0% 0% 0%;
   top: 0vh;
   left: 0vw;
   width: 100vw;
-  height: 10vh;
+  height: auto;
   text-align: center;
   background-color: navy;
   color: cyan;
 }
 
-.div_nav {
+#allImagesDiv {
+  background-color: black;
   position: absolute;
-  display: inline-block;
   margin: 0% 0% 0% 0%;
-  padding: 0% 0% 0% 0%;
-  top: 10vh;
-  left: 0vw;
+  padding: 0.5% 0.25% 0.25% 0.25%;
   width: 100vw;
-  height: 5vh;
-  text-align: center;
-  background-color: rgb(54, 3, 52);
+  height: auto;
 }
 
-h1 {
-  font-size: 2em;
+.clickableImage:hover {
+  cursor: pointer;
+}
+
+.clickableImage {
+  -webkit-transition: 0.3s;
+  transition: 1s;
+}
+
+img {
+  transition: transform 0.3s ease-out;
+  transform-origin: 50% 50%;
+}
+img.big {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: scaleX(2.25) scaleY(2);
+  z-index: 100;
 }
