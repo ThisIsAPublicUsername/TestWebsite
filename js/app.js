@@ -8,6 +8,11 @@ $(document).ready(function() {
     scaleXValueBy = 0.55;
     scaleYValueBy = 0.55;
   }
+  else if(window.innerWidth <= 500)
+  {
+    scaleXValueBy = 0.75;
+    scaleYValueBy = 0.75;
+  }
   else if(window.innerWidth <= 700)
   {
     scaleXValueBy = 1.30;

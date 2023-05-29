@@ -64,6 +64,72 @@
   }
 } /* End Media Query min-width: 200px */
 /* ---------------------------------------------------------------------------------------------- */
+@media screen and (min-width: 300px) {
+  body {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+    background-color: black;
+  }
+
+  .div_header {
+    position: relative;
+    display: inline-block;
+    padding: 0% 0% 0% 0%;
+    margin: 0% 0% 0% 0%;
+    top: 0vh;
+    left: 0vw;
+    width: 100vw;
+    height: auto;
+    text-align: center;
+    background-color: navy;
+    color: cyan;
+  }
+
+  #allImagesDiv {
+    background-color: black;
+    position: relative;
+    margin: 0% 0% 0% 0%;
+    padding: 0.5% 0.25% 0.25% 0.25%;
+    width: 100vw;
+    height: auto;
+  }
+
+  .centeredDivClass {
+    position: absolute;
+    display: inline-block;
+    padding: 0% 0% 0% 0%;
+    margin: 0% 0% 0% 0%;
+    top: 0vh;
+    left: 0vw;
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+  }
+
+  .clickableImage:hover {
+    cursor: pointer;
+  }
+
+  img {
+    position: relative;
+    display: inline-block;
+    padding: 0% 0% 0% 0%;
+    margin: 0% 1.25% 0% 0%;
+    transition: transform 0.4s ease-out;
+    transform-origin: 50% 50%;
+    transform: scaleX(1) scaleY(1);
+    top: 5%;
+    left: 2.5%;
+    width: 328px;
+    height: 220px;
+    border: 2.5px solid green;
+  }
+} /* End Media Query min-width: 300px */
+/* ---------------------------------------------------------------------------------------------- */
 @media screen and (min-width: 700px) {
   body {
     width: 100%;
