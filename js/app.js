@@ -45,7 +45,7 @@ $(document).ready(function() {
 
       document.getElementById('allImagesDiv').style.opacity = 0.25;
 
-      clone.onclick = function() {
+      centeredDiv.onclick = function() {
         centeredDiv.remove();
         document.getElementById('allImagesDiv').style.opacity = 1;
       }; // end onclick() function
