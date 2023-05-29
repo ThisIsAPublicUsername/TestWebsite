@@ -2,14 +2,14 @@ $(document).ready(function() {
   var scaleXValueBy, scaleYValueBy;
   var clickable = true;
 
-  if(window.innerWidth < 700)
+  if(window.innerWidth < 1030)
   {
     clickable = false;
   }
   else if(window.innerWidth <= 1100)
   {
-    scaleXValueBy = 1.65;
-    scaleYValueBy = 1.65;
+    scaleXValueBy = 1.25;
+    scaleYValueBy = 1.25;
   }
   else
   {
