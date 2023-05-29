@@ -1,53 +1,264 @@
-body {
-  overflow-x: hidden;
-  width: 100%;
-  height: 100%;
-  position: relative;
-  margin: 0% 0% 0% 0%;
-  padding: 0% 0% 0% 0%;
-  background-color: black;
-}
+@media screen and (min-width: 200px) {
+  body {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+    background-color: black;
+  }
 
-.div_header {
-  position: absolute;
-  display: inline-block;
-  padding: 0% 0% 0% 0%;
-  margin: 0% 0% 0% 0%;
-  top: 0vh;
-  left: 0vw;
-  width: 100vw;
-  height: auto;
-  text-align: center;
-  background-color: navy;
-  color: cyan;
-}
+  .div_header {
+    position: relative;
+    display: inline-block;
+    padding: 0% 0% 0% 0%;
+    margin: 0% 0% 0% 0%;
+    top: 0vh;
+    left: 0vw;
+    width: 100vw;
+    height: auto;
+    text-align: center;
+    background-color: navy;
+    color: cyan;
+  }
 
-#allImagesDiv {
-  background-color: black;
-  position: absolute;
-  margin: 0% 0% 0% 0%;
-  padding: 0.5% 0.25% 0.25% 0.25%;
-  width: 100vw;
-  height: auto;
-}
+  #allImagesDiv {
+    background-color: black;
+    position: relative;
+    margin: 0% 0% 0% 0%;
+    padding: 0.5% 0.25% 0.25% 0.25%;
+    width: 100vw;
+    height: auto;
+  }
 
-.clickableImage:hover {
-  cursor: pointer;
-}
+  .centeredDivClass {
+    position: absolute;
+    display: inline-block;
+    padding: 0% 0% 0% 0%;
+    margin: 0% 0% 0% 0%;
+    top: 0vh;
+    left: 0vw;
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+  }
 
-.clickableImage {
-  -webkit-transition: 0.3s;
-  transition: 1s;
-}
+  .clickableImage:hover {
+    cursor: pointer;
+  }
 
-img {
-  transition: transform 0.3s ease-out;
-  transform-origin: 50% 50%;
-}
-img.big {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  transform: scaleX(2.25) scaleY(2);
-  z-index: 100;
-}
+  img {
+    position: relative;
+    display: inline-block;
+    padding: 0% 0% 0% 0%;
+    margin: 0% 1.25% 0% 0%;
+    transition: transform 0.4s ease-out;
+    transform-origin: 50% 50%;
+    transform: scaleX(1) scaleY(1);
+    top: 5%;
+    left: 2.5%;
+    width: 328px;
+    height: 220px;
+    border: 2.5px solid green;
+  }
+} /* End Media Query min-width: 200px */
+/* ---------------------------------------------------------------------------------------------- */
+@media screen and (min-width: 700px) {
+  body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+    background-color: black;
+  }
+
+  .div_header {
+    position: relative;
+    display: inline-block;
+    padding: 0% 0% 0% 0%;
+    margin: 0% 0% 0% 0%;
+    top: 0vh;
+    left: 0vw;
+    width: 100vw;
+    height: auto;
+    text-align: center;
+    background-color: navy;
+    color: cyan;
+  }
+
+  #allImagesDiv {
+    background-color: black;
+    position: relative;
+    margin: 0% 0% 0% 0%;
+    padding: 0.5% 0.25% 0.25% 0.25%;
+    width: 100vw;
+    height: auto;
+  }
+
+  .centeredDivClass {
+    position: absolute;
+    display: inline-block;
+    padding: 0% 0% 0% 0%;
+    margin: 0% 0% 0% 0%;
+    top: 0vh;
+    left: 0vw;
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+  }
+
+  .clickableImage:hover {
+    cursor: pointer;
+  }
+
+  img {
+    position: relative;
+    display: inline-block;
+    padding: 0% 0% 0% 0%;
+    margin: 0% 1.25% 0% 0%;
+    transition: transform 0.4s ease-out;
+    transform-origin: 50% 50%;
+    transform: scaleX(1) scaleY(1);
+    top: 5%;
+    left: 2.5%;
+    width: 500px;
+    height: 335px;
+    border: 2.5px solid green;
+  }
+} /* End Media Query min-width: 700px */
+/* ---------------------------------------------------------------------------------------------- */
+@media screen and (min-width: 1100px) {
+  body {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+    background-color: black;
+  }
+
+  .div_header {
+    position: relative;
+    display: inline-block;
+    padding: 0% 0% 0% 0%;
+    margin: 0% 0% 0% 0%;
+    top: 0vh;
+    left: 0vw;
+    width: 100vw;
+    height: auto;
+    text-align: center;
+    background-color: navy;
+    color: cyan;
+  }
+
+  #allImagesDiv {
+    background-color: black;
+    position: relative;
+    margin: 0% 0% 0% 0%;
+    padding: 0.5% 0.25% 0.25% 0.25%;
+    width: 100vw;
+    height: auto;
+  }
+
+  .centeredDivClass {
+    position: absolute;
+    display: inline-block;
+    padding: 0% 0% 0% 0%;
+    margin: 0% 0% 0% 0%;
+    top: 0vh;
+    left: 0vw;
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+  }
+
+  .clickableImage:hover {
+    cursor: pointer;
+  }
+
+  img {
+    position: relative;
+    display: inline-block;
+    padding: 0% 0% 0% 0%;
+    margin: 0% 1.25% 0% 0%;
+    transition: transform 0.4s ease-out;
+    transform-origin: 50% 50%;
+    transform: scaleX(1) scaleY(1);
+    top: 5%;
+    left: 2.5%;
+    width: 403px;
+    height: 270px;
+    border: 2.5px solid green;
+  }
+} /* End Media Query min-width: 1100px */
+/* ---------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 1860px) {
+  body {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+    background-color: black;
+  }
+
+  .div_header {
+    position: relative;
+    display: inline-block;
+    padding: 0% 0% 0% 0%;
+    margin: 0% 0% 0% 0%;
+    top: 0vh;
+    left: 0vw;
+    width: 100vw;
+    height: auto;
+    text-align: center;
+    background-color: navy;
+    color: cyan;
+  }
+
+  #allImagesDiv {
+    background-color: black;
+    position: relative;
+    margin: 0% 0% 0% 0%;
+    padding: 0.5% 0.25% 0.25% 0.25%;
+    width: 100vw;
+    height: auto;
+  }
+
+  .centeredDivClass {
+    position: absolute;
+    display: inline-block;
+    padding: 0% 0% 0% 0%;
+    margin: 0% 0% 0% 0%;
+    top: 0vh;
+    left: 0vw;
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+  }
+
+  .clickableImage:hover {
+    cursor: pointer;
+  }
+
+  img {
+    position: relative;
+    display: inline-block;
+    padding: 0% 0% 0% 0%;
+    margin: 0% 1.25% 0% 0%;
+    transition: transform 0.4s ease-out;
+    transform-origin: 50% 50%;
+    transform: scaleX(1) scaleY(1);
+    top: 5%;
+    left: 2.5%;
+    width: 425px;
+    height: 285px;
+    border: 2.5px solid green;
+  }
+} /* End Media Query min-width: 1860px */
+/* ---------------------------------------------------------------------------------------------- */
